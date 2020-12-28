@@ -15,14 +15,40 @@ The features in the dataset are:
 ![Features](https://github.com/thepankj/Fake-News-Classification/blob/main/images/Features.jpg)
 
 ## Methodology
+
+### Just Title
+
 The first method was to apply the models to just the titles. It gave fairly good results with the Naive Bayes accuracy at 92.9% and PassiveAggressive Classfier's accuracy at 91.2%.
 
-Naive Bayes![Naive Bayes](https://github.com/thepankj/Fake-News-Classification/blob/main/images/Accuracy_title_NB.jpg?raw=true "Title")    PassiveAggressive![PassiveAggressive](https://github.com/thepankj/Fake-News-Classification/blob/main/images/Accuracy_title_PA.jpg)
+Naive Bayes
 
+![Naive Bayes](https://github.com/thepankj/Fake-News-Classification/blob/main/images/Accuracy_title_NB.jpg)
+
+PassiveAggressive
+
+![PassiveAggressive](https://github.com/thepankj/Fake-News-Classification/blob/main/images/Accuracy_title_PA.jpg)
+
+
+
+### Just Text
 Then I applied the models to text only. The results improved a lot, and PassiveAggressive classifier preformed better.
 
-Naive Bayes![Naive Bayes](https://github.com/thepankj/Fake-News-Classification/blob/main/images/Accuracy_text_NB.jpg) PassiveAggressive![PassiveAggressive](https://github.com/thepankj/Fake-News-Classification/blob/main/images/Accuracy_text_PA.jpg)
+Naive Bayes
+
+![Naive Bayes](https://github.com/thepankj/Fake-News-Classification/blob/main/images/Accuracy_text_NB.jpg) 
+
+PassiveAggressive
+
+![PassiveAggressive](https://github.com/thepankj/Fake-News-Classification/blob/main/images/Accuracy_text_PA.jpg)
+
+***
 
 Finally I applied the models to title+text. The results improved didn't improve much from the previous try, but there was an improvement.
 
-Naive Bayes![Naive Bayes](https://github.com/thepankj/Fake-News-Classification/blob/main/images/Accuracy_title_text_NB.jpg) PassiveAggressive![PassiveAggressive](https://github.com/thepankj/Fake-News-Classification/blob/main/images/Accuracy_title_text_PA.jpg)
+Naive Bayes
+
+![Naive Bayes](https://github.com/thepankj/Fake-News-Classification/blob/main/images/Accuracy_title_text_NB.jpg) 
+
+PassiveAggressive
+
+![PassiveAggressive](https://github.com/thepankj/Fake-News-Classification/blob/main/images/Accuracy_title_text_PA.jpg)
