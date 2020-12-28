@@ -15,8 +15,8 @@ The features in the dataset are:
 ![Features](https://github.com/thepankj/Fake-News-Classification/blob/main/images/Features.jpg)
 
 ## Methodology
-
-### Just Title
+***
+### title
 
 The first method was to apply the models to just the titles. It gave fairly good results with the Naive Bayes accuracy at 92.9% and PassiveAggressive Classfier's accuracy at 91.2%.
 
@@ -27,10 +27,8 @@ Naive Bayes
 PassiveAggressive
 
 ![PassiveAggressive](https://github.com/thepankj/Fake-News-Classification/blob/main/images/Accuracy_title_PA.jpg)
-
-
-
-### Just Text
+***
+### text
 Then I applied the models to text only. The results improved a lot, and PassiveAggressive classifier preformed better.
 
 Naive Bayes
@@ -42,7 +40,7 @@ PassiveAggressive
 ![PassiveAggressive](https://github.com/thepankj/Fake-News-Classification/blob/main/images/Accuracy_text_PA.jpg)
 
 ***
-
+### title + text
 Finally I applied the models to title+text. The results improved didn't improve much from the previous try, but there was an improvement.
 
 Naive Bayes
